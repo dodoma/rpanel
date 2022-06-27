@@ -1,0 +1,67 @@
+eflat.o: eflat.c deps/reef/include/reef.h deps/reef/include/mos_linux.h \
+ deps/reef/include/mos_osx.h deps/reef/include/mos_esp.h \
+ deps/reef/include/mos.h deps/reef/include/utf.h \
+ deps/reef/include/mcolor.h deps/reef/include/mbase64.h \
+ deps/reef/include/mtype.h deps/reef/include/mtest.h \
+ deps/reef/include/mtimer.h deps/reef/include/merror.h \
+ deps/reef/include/merror_macro.h deps/reef/include/mmime.h \
+ deps/reef/include/mtrace.h deps/reef/include/mtrace_macro.h \
+ deps/reef/include/mtrace_multithread.h \
+ deps/reef/include/mtrace_multithread_macro.h \
+ deps/reef/include/mtrace_multimodule.h \
+ deps/reef/include/mtrace_multimodule_macro.h deps/reef/include/mstring.h \
+ deps/reef/include/mbuf.h deps/reef/include/mlist.h \
+ deps/reef/include/mlist_macro.h deps/reef/include/mdlist.h \
+ deps/reef/include/mtree.h deps/reef/include/mutree.h \
+ deps/reef/include/mhash.h deps/reef/include/mhash_macro.h \
+ deps/reef/include/mdf.h deps/reef/include/mcs.h \
+ deps/reef/include/mdf_data.h deps/reef/include/mdf_aux.h \
+ deps/reef/include/mdf_macro.h deps/reef/include/mmemcache.h \
+ deps/reef/include/mregexp.h deps/reef/include/mhttp.h \
+ deps/reef/include/mhttp_ext.h deps/reef/include/mcgi.h eflat.h
+panel.o: panel.c deps/reef/include/reef.h deps/reef/include/mos_linux.h \
+ deps/reef/include/mos_osx.h deps/reef/include/mos_esp.h \
+ deps/reef/include/mos.h deps/reef/include/utf.h \
+ deps/reef/include/mcolor.h deps/reef/include/mbase64.h \
+ deps/reef/include/mtype.h deps/reef/include/mtest.h \
+ deps/reef/include/mtimer.h deps/reef/include/merror.h \
+ deps/reef/include/merror_macro.h deps/reef/include/mmime.h \
+ deps/reef/include/mtrace.h deps/reef/include/mtrace_macro.h \
+ deps/reef/include/mtrace_multithread.h \
+ deps/reef/include/mtrace_multithread_macro.h \
+ deps/reef/include/mtrace_multimodule.h \
+ deps/reef/include/mtrace_multimodule_macro.h deps/reef/include/mstring.h \
+ deps/reef/include/mbuf.h deps/reef/include/mlist.h \
+ deps/reef/include/mlist_macro.h deps/reef/include/mdlist.h \
+ deps/reef/include/mtree.h deps/reef/include/mutree.h \
+ deps/reef/include/mhash.h deps/reef/include/mhash_macro.h \
+ deps/reef/include/mdf.h deps/reef/include/mcs.h \
+ deps/reef/include/mdf_data.h deps/reef/include/mdf_aux.h \
+ deps/reef/include/mdf_macro.h deps/reef/include/mmemcache.h \
+ deps/reef/include/mregexp.h deps/reef/include/mhttp.h \
+ deps/reef/include/mhttp_ext.h deps/reef/include/mcgi.h \
+ /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
+ /usr/include/hiredis/sds.h db.h eflat.h
+db.o: db.c deps/reef/include/reef.h deps/reef/include/mos_linux.h \
+ deps/reef/include/mos_osx.h deps/reef/include/mos_esp.h \
+ deps/reef/include/mos.h deps/reef/include/utf.h \
+ deps/reef/include/mcolor.h deps/reef/include/mbase64.h \
+ deps/reef/include/mtype.h deps/reef/include/mtest.h \
+ deps/reef/include/mtimer.h deps/reef/include/merror.h \
+ deps/reef/include/merror_macro.h deps/reef/include/mmime.h \
+ deps/reef/include/mtrace.h deps/reef/include/mtrace_macro.h \
+ deps/reef/include/mtrace_multithread.h \
+ deps/reef/include/mtrace_multithread_macro.h \
+ deps/reef/include/mtrace_multimodule.h \
+ deps/reef/include/mtrace_multimodule_macro.h deps/reef/include/mstring.h \
+ deps/reef/include/mbuf.h deps/reef/include/mlist.h \
+ deps/reef/include/mlist_macro.h deps/reef/include/mdlist.h \
+ deps/reef/include/mtree.h deps/reef/include/mutree.h \
+ deps/reef/include/mhash.h deps/reef/include/mhash_macro.h \
+ deps/reef/include/mdf.h deps/reef/include/mcs.h \
+ deps/reef/include/mdf_data.h deps/reef/include/mdf_aux.h \
+ deps/reef/include/mdf_macro.h deps/reef/include/mmemcache.h \
+ deps/reef/include/mregexp.h deps/reef/include/mhttp.h \
+ deps/reef/include/mhttp_ext.h deps/reef/include/mcgi.h \
+ /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
+ /usr/include/hiredis/sds.h db.h
